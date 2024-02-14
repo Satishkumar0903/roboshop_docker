@@ -30,9 +30,9 @@ services:
   #   - shipping
   #   - payment
 
-  # redis:
-  #   image: redis
-  #   container_name: redis
+  redis:
+    image: redis
+    container_name: redis
 
   # user:
   #   image: user:1
