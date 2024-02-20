@@ -9,5 +9,5 @@ COPY package.json /opt/server/
 COPY server.js /opt/server/
 RUN npm install
 RUN echo Hello World
-RUN adduser roboshop
+USER roboshop
 CMD ["node", "server.js"]
