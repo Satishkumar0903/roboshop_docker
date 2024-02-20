@@ -53,7 +53,7 @@ services:
     container_name: mysql
 
   shipping:
-    image: shipping:1
+    image: shipping:v1
     container_name: shipping
     depends_on:
     - mysql
